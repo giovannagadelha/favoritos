@@ -15,7 +15,7 @@ OlaMundo();
 
     {/*nosso cabecalho tem uma propriedade chamada titulo*/}
     <Cabecalho logo="logo192.png" titulo= "Favoritos" subtitulo="o melhor gerenciador de favoritos"/>
-    <Rodape/>
+    <Rodape data="data corrente" titulo="redes sociais" logo="facebook.png"/>
    <Conteudo/>
     </>
   );

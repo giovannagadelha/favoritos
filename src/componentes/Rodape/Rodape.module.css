@@ -1,4 +1,14 @@
 .rodape {
     position: fixed;
+    display: flex;
     
 }
+
+.titulo{
+    text-align: center;
+    
+}
+
+    .data {
+
+    }
