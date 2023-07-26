@@ -1,20 +1,29 @@
 .cabecalho{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
-    background-color: #f0f0f0;
+    background-color: black;
     align-items: center;
     text-align: right;
 
 
 }
-
+    
 .titulo{
     font-size: 3rem;
-    color: rgb(63, 195, 235);
+    color: #fff;
    text-align: center;
 
 }
 
 .subtitulo{
 font-size: 2rem;
+}
+
+.foto{
+    width: 200px;
+    height: 150px;
+}
+.menu {
+    color: aliceblue;
 }

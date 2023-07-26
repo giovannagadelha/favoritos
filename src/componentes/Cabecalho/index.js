@@ -4,10 +4,19 @@ import styles from './Cabecalho.module.css'
 export default function Cabecalho(props) {
   return (
     <>
-    <div className={styles.Cabecalho}>
-    <img src={props.logo}/>
+    <div className={styles.cabecalho}>
+    <img className= {styles.foto} src={props.logo}/>
     <p className={styles.titulo}>{props.titulo}</p>
     <p className={`${styles.titulo} ${styles.subtitulo}`}>{props.subtitulo} </p>
+
+    <div className= {styles.menu}>
+      <ul>
+        <li>Entrar</li>
+        <li>Sobre</li>
+        <li>Apps</li>
+      </ul>
+    
+    </div>
     
 
 

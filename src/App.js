@@ -11,12 +11,12 @@ OlaMundo();
   return (
     /*o react substitui className por class pq class é uma palavra reservada do js */
     <>
-    <img src='logo.png' alt=''></img>
+    
 
     {/*nosso cabecalho tem uma propriedade chamada titulo*/}
-    <Cabecalho logo="logo192.png" titulo= "Favoritos" subtitulo="o melhor gerenciador de favoritos"/>
-    <Rodape data="data corrente" titulo="redes sociais" logo="facebook.png"/>
-   <Conteudo/>
+    <Cabecalho logo="fav.png" titulo= "Favoritos" subtitulo="o melhor gerenciador de favoritos" menu="menu ilustrativo"/>
+    <Conteudo/>
+    <Rodape logo1="logo1.png" logo2="logo2.png" logo3="logo3.png" />
     </>
   );
 }

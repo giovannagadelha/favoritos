@@ -1,14 +1,19 @@
 .rodape {
-    position: fixed;
+    position: absolute;
     display: flex;
-    
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 2,5rem;
+    gap: 5px;
+    justify-content: right;
+
 }
 
-.titulo{
-    text-align: center;
     
-}
 
-    .data {
-
+    img {
+        
+        width: 130px;
+        height: 70px;
+        
     }
