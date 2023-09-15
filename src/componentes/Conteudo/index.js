@@ -1,11 +1,9 @@
 import React from 'react'
 
-export default function Conteudo() {
+const Conteudo = () => {
   return (
-    <div></div>
+    <div>Conteudo</div>
   )
 }
 
-export function OlaMundo () {
-    console.log("Ola mundo")
-}
+export default Conteudo
