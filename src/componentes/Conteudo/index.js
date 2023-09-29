@@ -7,12 +7,12 @@ const Conteudo = () => {
   const [nome, setNome]=useState("google")
     const [url, setUrl]=useState("https://www.google.com")
     const [favoritos, setFavoritos]=useState([])
-
+    
 
 
     function adicionarFavorito(){
         setFavoritos([...favoritos,{nome,url}]) 
-        localStorage.setItem ("favorito", {nome,url})
+        localStorage.setItem ("favorito", JSON.stringify (favoritos))
         console.log(favoritos)
     
     }
@@ -22,8 +22,10 @@ const Conteudo = () => {
 
     }
     return(
+
         <div className={styles.area}>
-            
+
+ 
             <form className={styles.formulario}>    
         
             <h1>{nome}</h1>
@@ -35,11 +37,14 @@ const Conteudo = () => {
             <label> Url </label>
             <input type="text" value={url} onChange={(e)=>setUrl(e.target.value)} />
 
-            <input type="button" onClick={()=>adicionarFavorito(nome,url)} value="Adicionar"/>
-        
-            <ul>
-            { favoritos.map( (fav) => <li key={fav.url}>{ fav.nome } <br />{ fav.url }</li>) }
-            </ul>
+            <input type="button" onClick={()=>adicionarFavorito()} value="Adicionar"/>
+
+    <ul>
+      {favoritos[0]!=undefined &&
+        favoritos.map((favorito) => (
+          <li>{favorito.nome} : {favorito.url}</li>
+        ))}
+      </ul>   
             </form>
         </div>
     );

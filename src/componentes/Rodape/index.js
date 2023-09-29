@@ -14,9 +14,12 @@ export default function Rodape(props) {
     
     <div className={styles.rodape}>
       <h2>{getCurrentDate()}</h2>
+      <div>
     <img src={props.logo1}/>
     <img src={props.logo2}/>
     <img src={props.logo3}/>
+    <img src={props.logo4}/>
+    </div>
     </div>
 
     

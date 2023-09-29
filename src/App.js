@@ -14,9 +14,9 @@ function App() {
     
 
     {/*nosso cabecalho tem uma propriedade chamada titulo*/}
-    <Cabecalho logo="fav.png" titulo= "Favoritos" subtitulo="o melhor gerenciador de favoritos" menu="menu ilustrativo"/>
+    <Cabecalho logo="fav3.png" titulo= "Favoritos" subtitulo="o melhor gerenciador de favoritos" menu="menu ilustrativo"/>
     <Conteudo/>
-    <Rodape logo1="logo1.png" logo2="logo2.png" logo3="logo3.png" />
+    <Rodape logo1="whats.png" logo2="twitter.png" logo3="face.png" logo4="insta.png" />
     </>
   );
 }

@@ -6,6 +6,9 @@
     padding-bottom: 2,5rem;
     gap: 5px;
     justify-content: right;
+    align-items: center;
+    background-color:  rgb(172, 174, 248);
+    color: #fff;
 
 }
 
@@ -13,7 +16,8 @@
 
     img {
         
-        width: 130px;
-        height: 70px;
+        width: 30px;
+        height: 30px;
+        padding: 5px 5px 5px 5px;
         
     }
