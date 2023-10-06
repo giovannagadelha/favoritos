@@ -11,9 +11,9 @@ export default function Cabecalho(props) {
 
     <div className= {styles.menu}>
       <ul>
-        <li>Entrar</li>
+        <li>Cadastrar-se</li>
+        <li>Login</li>
         <li>Sobre</li>
-        <li>Apps</li>
       </ul>
     
     </div>
