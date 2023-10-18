@@ -3,6 +3,7 @@ import Cabecalho from './componentes/Cabecalho'
 import Rodape from './componentes/Rodape'
 import Cadastro from './componentes/Cadastro'
 import Conteudo from './componentes/Conteudo';
+import Login from './componentes/Login';
 
 
 /*arquivo app jsx
