@@ -6,6 +6,7 @@ const Login = () => {
     const [email, setEmail]=useState("")
     const [senha, setSenha]=useState("")
 
+
     function validacao () {
       let usuario = JSON.parse(localStorage.getItem('usuario'))
       console.log(usuario)
@@ -13,6 +14,8 @@ const Login = () => {
       let emailCadastrado = usuario.email
       let senhaCadastrada = usuario.senha
 
+
+      if (usuario!=senha) {
       if (emailCadastrado === email && senhaCadastrada === senha ) {
         alert ("Login realizado com sucesso")
     
@@ -20,7 +23,7 @@ const Login = () => {
         alert ("Email ou Senha incorretos")
         
       }
-
+    }
       
     }
 
@@ -42,4 +45,4 @@ const Login = () => {
   )
 }
 
-export default Login
+export default Login;

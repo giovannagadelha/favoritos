@@ -14,6 +14,7 @@ export default function Cabecalho(props) {
         <li>Cadastrar-se</li>
         <li>Login</li>
         <li>Sobre</li>
+        
       </ul>
     
     </div>

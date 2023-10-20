@@ -61,4 +61,4 @@ const Cadastro = () => {
   )
 }
 
-export default Cadastro
+export default Cadastro;
