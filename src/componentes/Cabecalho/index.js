@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './Cabecalho.module.css'
+import { Link } from 'react-router-dom'
 
 export default function Cabecalho(props) {
   return (
@@ -11,9 +12,10 @@ export default function Cabecalho(props) {
 
     <div className= {styles.menu}>
       <ul>
-        <li>Cadastrar-se</li>
-        <li>Login</li>
-        <li>Sobre</li>
+        <li><Link to={'/'}>Home</Link></li>
+        <li><Link to={'/Login'}>Login</Link></li>
+        <li><Link to={'/Cadastro'}>Cadastrar-se</Link></li>
+       
         
       </ul>
     

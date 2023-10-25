@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Indie+Flower&family=Kaushan+Script&family=Lobster&family=Quattrocento&display=swap');
+
 .cabecalho{
     display: flex;
     flex-wrap: wrap;
@@ -6,7 +6,7 @@
     background-color: rgb(172, 174, 248);
     align-items: center;
     text-align: right;
-    font-family: 'Lobster', cursive;
+    font-family:'Times New Roman', Times, serif;
 
 
 }

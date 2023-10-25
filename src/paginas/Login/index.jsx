@@ -29,7 +29,8 @@ const Login = () => {
 
 
   return (
-    <div>Login
+    <div>
+      <h1>Login</h1>
         <form>
         <label>Email </label>
         <input type="text" value={email} onChange={(e)=>setEmail(e.target.value)}/>

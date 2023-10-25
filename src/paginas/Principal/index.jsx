@@ -13,14 +13,12 @@ const Principal = () => {
 
     
     {/*nosso cabecalho tem uma propriedade chamada titulo*/}
-    <Cabecalho logo="fav3.png" titulo= "Favoritos" subtitulo="o melhor gerenciador de favoritos" menu="menu ilustrativo"/>
-    {/*<Conteudo/>*/}
-    <Cadastro/>
-    <Login/>
-    <Rodape logo1="whats.png" logo2="twitter.png" logo3="face.png" logo4="insta.png" />
+    <Conteudo/>
+    {/*<Cadastro/>*/}
+    {/*<Login/>*/}
     </div>
     
   )
 }
 
-export default Principal
+export default Principal;

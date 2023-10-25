@@ -23,13 +23,15 @@ const Cadastro = () => {
         }
         else{
             cadastro(email, nome, senha)
+            alert('cadastro feito com sucesso')
         }
     }
 
 
   return (
 
-    <div> Faça seu cadastro!
+    <div> 
+        <h1>Faça seu cadastro</h1>
     
     <form>
         <label> Nome </label>

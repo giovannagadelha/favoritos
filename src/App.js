@@ -1,12 +1,12 @@
 import './App.css';
-import Principal from './paginas/Principal';
+import Rotas from './routes';
 
 
 /*arquivo app jsx
 componemte funcional - pq ele é uma função*/
 function App() {
   /*todo componente deve retornar um html entre parentese*/
-  return <Principal/>
+  return <Rotas/>
   
 }
 
